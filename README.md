@@ -27,6 +27,7 @@ Example output:
 ### Notes/Limitations/Bugs/Issues
 * Example output image looks different, bear with me.
 * This script omits open networks.
+* It is extremely slow.
 * Known networks accept any password that is thrown at them (false positives). 
 * You might get a pop-up asking for your admin pass, to make changes to the network settings when a match is found...I do not know how to get around this.
 * The single thread version is confirmed to be working in a isolated test setting on self-owned hardware. The multithread version is not working at the moment, see below:
