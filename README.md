@@ -1,5 +1,3 @@
-# THIS DOES NOT WORK
-
 # WifiBF
  OSX Wifi password checker using OSX built-in tools (+ Python 3 that is sadly not supplied by default anymore).
  
@@ -27,6 +25,7 @@ Example output:
 
 
 ### Notes/Limitations/Bugs/Issues
+* Example output image looks different, bear with me.
 * This script omits open networks.
 * Known networks accept any password that is thrown at them (false positives). 
 * You might get a pop-up asking for your admin pass, to make changes to the network settings when a match is found...I do not know how to get around this.
