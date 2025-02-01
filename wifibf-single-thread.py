@@ -13,7 +13,7 @@ def print_rainbow_banner():
         "▐▌ ▐▌  █  ▐▛▀▀▘  █      ▐▛▀▚▖▐▛▀▀▘",
         "▐▙█▟▌▗▄█▄▖▐▌   ▗▄█▄▖    ▐▙▄▞▘▐▌   ",
         " ",
-        "OSX WiFi Password Checker",
+        "OSX WiFi Password Brute-Forcer",
         " "
     ]
     for line in banner:
@@ -58,7 +58,7 @@ if __name__ == "__main__":
         print("❌ No WiFi networks found.")
         sys.exit(1)
 
-    print(f"\n🔍 Found {len(ssids)} WiFi networks. Starting check...\n")
+    print(f"\n🔍 Found {len(ssids)} WiFi networks. Starting brute-force...\n")
 
     # Multiprocessing manager for shared data
     manager = multiprocessing.Manager()
@@ -98,4 +98,4 @@ if __name__ == "__main__":
     else:
         print("❌ No successful connections.")
 
-    print("\n🔄 Testing complete.")
+    print("\n🔄 Brute-force complete.")

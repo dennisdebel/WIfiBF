@@ -14,9 +14,14 @@ After python3 is installed you can simply run this script like:
 Example output:
 ![](scrot.jpg)
 
+Optionally you can try:
+
+> python wifibf-single-thread.py
+
+In case multi processing does not give the desired result.
+
 ### Operantion
 This script uses OSX built-in command-line tools to scan and connect to SSIDS in scanning range using a list of passwords you can find in the script. Optionally you can use an external text file (see code). 
 
 ### Limitations
-* This code runs extremely slow, mayb it could benefit from multiprocessing?
 * There seem to be some false positives when there are multiple Access Points with the same name (dual band 2.4/5g) this needs more research.
