@@ -122,7 +122,8 @@ passwords = [
     'qwe123456',
     'qqaa840605',
     'q1q1q1q1',
-    'redredred'
+    'redredred',
+    '66666666'
 ]
 
 # Store SSIDS
