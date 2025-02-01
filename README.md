@@ -33,3 +33,4 @@ Example output:
 * The single thread version is confirmed to be working in a isolated test setting on self-owned hardware. The multithread version is not working at the moment, see below:
 * The 'wifibf.py' script is ai generated crap that doesn't work, it was an attempt at multi-threading but that might be impossible considering the hardware involved (1 interface).
 * There are some quality of life improvements in 'wifibf.py' that should be implemented in the single thread version (like showing names of Access Points around).
+* There is some noise in the user interface/loading cursor, not clearing lines fully.
