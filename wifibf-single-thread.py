@@ -53,7 +53,6 @@ scan = '/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/
 
 # Edit this! List of passwords to try (TODO: add variable masks for local phone numbers):
 passwords = [
-    'thereisnospoon',
     '88888888', 
     '12345678', 
     '1234567890', 

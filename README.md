@@ -25,12 +25,12 @@ Example output:
 
 
 ### Notes/Limitations/Bugs/Issues
-* Example output image looks different, bear with me.
-* This script omits open networks.
-* It is extremely slow.
-* Known networks accept any password that is thrown at them (false positives). 
+* Example output image is from the multi-thread version
+* Not sure how this script deals with open networks.
+* It is extremely slow. Like, 20 seconds per pass, still faster than manual...
+* Known networks accept *some* password that is thrown at them (false positives). 
 * You might get a pop-up asking for your admin pass, to make changes to the network settings when a match is found...I do not know how to get around this.
 * The single thread version is confirmed to be working in a isolated test setting on self-owned hardware. The multithread version is not working at the moment, see below:
-* The 'wifibf.py' script is ai generated crap that doesn't work, it was an attempt at multi-threading but that might be impossible considering the hardware involved (1 interface).
-* There are some quality of life improvements in 'wifibf.py' that should be implemented in the single thread version (like showing names of Access Points around).
+* The 'wifibf.py' script was an attempt at multi-threading but that might be impossible considering the hardware involved (1 interface).
+* There are some quality of life improvements in 'wifibf.py' that should be implemented in the single thread version (like listing names of all Access Points around).
 * There is some noise in the user interface/loading cursor, not clearing lines fully.
